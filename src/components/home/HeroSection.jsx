@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import BookNowModal from "../common/BookNowModal";
 import EnquireModal from "../common/EnquireModal";
+import bgVideo from "../../assets/bg-video.mp4";
 
 const HeroSection = () => {
   return (
@@ -8,7 +9,14 @@ const HeroSection = () => {
       className="relative h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/images/andaman-hero.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+      <video
+        src={bgVideo}
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 bg-black bg-opacity-40"
+      ></video>
+      <div className="absolute inset-0 bg-orange-300 bg-opacity-10"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
         <motion.h1
           initial={{ y: -50, opacity: 0 }}
