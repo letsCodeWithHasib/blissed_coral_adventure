@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import BookNowModal from "./components/common/BookNowModal";
 import HomePage from "./pages/Home";
 

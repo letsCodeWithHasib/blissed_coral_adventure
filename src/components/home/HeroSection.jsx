@@ -109,7 +109,7 @@ const HeroSection = () => {
   );
 
   return (
-    <section className="relative min-h-screen overflow-hidden p-5">
+    <section className="relative min-h-screen overflow-hidden p-5 mt-20">
       {/* Interactive Background Slider */}
       <div className="absolute inset-0">
         {heroImages.map((image, index) => (

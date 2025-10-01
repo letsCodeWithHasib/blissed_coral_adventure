@@ -33,12 +33,12 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-amber-400 to-amber-600 rounded-lg flex items-center justify-center mr-3 shadow-lg">
-                <span className="text-white font-bold text-lg">🌴</span>
+              <div className="bg-gradient-to-r p-5 from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                <img src="/logo-blissed.png" className="h-28" />
               </div>
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
+              {/* <h3 className="text-2xl font-bold bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
                 Blissed Coral
-              </h3>
+              </h3> */}
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 text-sm">
               Creating unforgettable memories in the pristine islands of Andaman

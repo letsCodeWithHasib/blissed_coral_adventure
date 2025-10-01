@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/common/Navbar";
 import HeroSection from "../components/home/HeroSection";
 import FeaturedPackages from "../components/home/FeaturedPackages";
 import WhyChooseUs from "../components/home/WhyChooseUs";
