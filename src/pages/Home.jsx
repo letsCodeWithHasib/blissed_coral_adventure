@@ -5,6 +5,7 @@ import WhyChooseUs from "../components/home/WhyChooseUs";
 import Testimonials from "../components/home/Testimonials";
 import GalleryPreview from "../components/home/GalleryPreview";
 import Newsletter from "../components/home/Newsletter";
+import Footer from "../components/common/Footer";
 
 const HomePage = () => {
   return (
@@ -18,7 +19,7 @@ const HomePage = () => {
         <GalleryPreview />
         <Newsletter />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
